@@ -1,0 +1,139 @@
+.roomba[turn='NS']{
+    animation: NS 0.5s 1;
+}
+.roomba[turn='NE']{
+    animation: NE 0.5s 1;
+}
+.roomba[turn='NW']{
+    animation: NW 0.5s 1;
+}
+
+@keyframes NS {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+@keyframes NE {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+@keyframes NW {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-90deg);
+    }
+}
+
+.roomba[turn='EN']{
+    animation: EN 0.5s 1;
+}
+.roomba[turn='ES']{
+    animation: ES 0.5s 1;
+}
+.roomba[turn='EW']{
+    animation: EW 0.5s 1;
+}
+
+@keyframes EN {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes ES {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+@keyframes EW {
+    from {
+        transform: rotate(90deg);
+    }
+    to {
+        transform: rotate(270deg);
+    }
+}
+
+.roomba[turn='SW']{
+    animation: SW 0.5s 1;
+}
+.roomba[turn='SN']{
+    animation: SN 0.5s 1;
+}
+.roomba[turn='SE']{
+    animation: SE 0.5s 1;
+}
+
+@keyframes SW {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(270deg);
+    }
+}
+@keyframes SN {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes SE {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+.roomba[turn='WS']{
+    animation: WS 0.5s 1;
+}
+.roomba[turn='WN']{
+    animation: WN 0.5s 1;
+}
+.roomba[turn='WE']{
+    animation: WE 0.5s 1;
+}
+
+@keyframes WS {
+    from {
+        transform: rotate(270deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+@keyframes WN {
+    from {
+        transform: rotate(270deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes WE {
+    from {
+        transform: rotate(270deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}

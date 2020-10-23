@@ -1,0 +1,11 @@
+td.room{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+table{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
